@@ -1,0 +1,5 @@
+Version 1 - Initial release
+
+* Initial algorithm reads the file, extrats the ids and edges from it
+* Uses BFS and returns the nodes in order
+*   
