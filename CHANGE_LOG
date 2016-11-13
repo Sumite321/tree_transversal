@@ -1,5 +1,76 @@
+HPEnd 7.2
+
+* added ability to transverse a tree using DFS
+* minor big fixes
+
+*********************************************************
+Older version
+Version 7 - HpEnd
+
+* re-designed and re-invented version 5
+* objects are no longer instantiated using lists
+* self.obj removed
+* added new feature - Auto Root; Automatically finds the root
+* new algorithm implemented; objects are instantiated, assigned and sorted
+using a single loop
+* removed lists (ID,tmp)
+* removed unecessary loops(IDs,inst)
+* get_content and set_content no longer used
+* major bug fixes
+
+
+
+Version 5.1 - RollBX
+
+* rollback to version 5
+
+Version 6.2
+
+* temporary bug changed to permanently fixed
+* minor pointer fixes
+
+
+Version 6.1
+
+* Bug fixed (temporary)
+* pointer added (set_content -> self.id)
+* get_all_nodes_<method> now returns id node with content
+
+
+Version 6 - ADvd
+
+* New algorithm implemented
+* Added ability to transverse a tree with unlimited nodes
+* set_content and get_content fixed
+* bf_nodes method now uses get_content
+* Added ability to read an unordered tree and automatically sort it
+* Create objects dynamically
+
+Version 5
+
+* Implemented "linked list" style tree tranversal
+* instantiation happens using lists
+
+Version 4 - Majrx
+
+* skips version 3 due to major updates
+* nodes are now instantiated dynamically accessing a list
+* method to sort using BFS implemented
+* tree is built using BFS
+* new effecient way to find for ids and edges
+* new logical method to recognize parents and edges from txt files
+
+
+Version 2
+
+* fully new algorithm; 2 classes implemented
+* Node class gets ID and nodes from txt file and uses the methods
+* Tree class reads txt file, builds and sorts the tree
+* Nodes created manually
+
+
+
 Version 1 - Initial release
 
 * Initial algorithm reads the file, extrats the ids and edges from it
 * Uses BFS and returns the nodes in order
-
