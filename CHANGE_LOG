@@ -1,10 +1,15 @@
+HPEnd 7.3
+
+* Added recursion for BFS
+
+********************************************************
+Older version
+
 HPEnd 7.2
 
 * added ability to transverse a tree using DFS
 * minor big fixes
 
-*********************************************************
-Older version
 Version 7 - HpEnd
 
 * re-designed and re-invented version 5
